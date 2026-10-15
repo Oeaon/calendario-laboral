@@ -1,6 +1,10 @@
 # Calendario Laboral
 
-App Android (Jetpack Compose) con el calendario laboral de España por comunidad autónoma.
+![Kotlin](https://img.shields.io/badge/Kotlin-2.2-7F52FF?logo=kotlin&logoColor=white) ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Material%203-4285F4?logo=jetpackcompose&logoColor=white) ![Android](https://img.shields.io/badge/Android-8.0%2B-3DDC84?logo=android&logoColor=white)
+
+Calendario laboral de España por comunidad autónoma: festivos, puentes, días laborables y planificador de vacaciones.
+
+App Android nativa desarrollada en **Kotlin** con **Jetpack Compose** (Material 3).
 
 - Calendario mensual con festivos nacionales, autonómicos y locales, y la cuenta atrás hasta el próximo festivo.
 - Festivos locales: se marcan tocando el día (cada municipio tiene dos).
