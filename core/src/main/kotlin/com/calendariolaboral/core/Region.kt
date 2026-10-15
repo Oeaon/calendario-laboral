@@ -1,0 +1,7 @@
+package com.calendariolaboral.core
+
+/** Comunidades y ciudades autónomas. */
+enum class Region {
+    ANDALUCIA, ARAGON, ASTURIAS, BALEARES, CANARIAS, CANTABRIA, CASTILLA_LA_MANCHA, CASTILLA_Y_LEON,
+    CATALUNA, CEUTA, VALENCIA, EXTREMADURA, GALICIA, MADRID, MELILLA, MURCIA, NAVARRA, PAIS_VASCO, LA_RIOJA,
+}
