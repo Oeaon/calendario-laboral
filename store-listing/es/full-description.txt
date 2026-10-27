@@ -18,3 +18,7 @@ Con Premium quitas todos los anuncios y tienes el planificador de vacaciones sie
 
 AVISO
 Los festivos se calculan según las reglas de cada comunidad. Algunas comunidades trasladan o cambian festivos cada año, así que comprueba siempre el calendario oficial publicado en el BOE, el boletín de tu comunidad y tu ayuntamiento. Calendario Laboral es una app independiente y no está vinculada a ninguna administración pública.
+
+FUENTES OFICIALES
+• Fiestas laborales publicadas en el BOE: https://www.boe.es/buscar/boe.php?campo%5B0%5D=TITULOS&dato%5B0%5D=fiestas+laborales
+• Estatuto de los Trabajadores, art. 37 (BOE): https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430

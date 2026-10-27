@@ -16,9 +16,11 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
+import androidx.compose.material3.TextButton
 import androidx.compose.material3.TopAppBar
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.platform.LocalUriHandler
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.calendariolaboral.app.BuildConfig
@@ -76,6 +78,22 @@ fun SettingsScreen(
             }
             SectionTitle(stringResource(R.string.about_title))
             Text(stringResource(R.string.about_text), style = MaterialTheme.typography.bodyMedium)
+
+            // Google Play exige enlazar las fuentes oficiales de la información.
+            val uriHandler = LocalUriHandler.current
+            Text(
+                stringResource(R.string.source_title),
+                style = MaterialTheme.typography.labelLarge,
+                modifier = Modifier.padding(top = 12.dp),
+            )
+            OFFICIAL_SOURCES.forEach { (label, url) ->
+                TextButton(onClick = { uriHandler.openUri(url) }) { Text(stringResource(label)) }
+            }
+            Text(
+                stringResource(R.string.about_disclaimer),
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
             Text(
                 stringResource(R.string.version, BuildConfig.VERSION_NAME),
                 style = MaterialTheme.typography.labelSmall,
@@ -85,6 +103,11 @@ fun SettingsScreen(
         }
     }
 }
+
+private val OFFICIAL_SOURCES = listOf(
+    R.string.source_1 to "https://www.boe.es/buscar/boe.php?campo%5B0%5D=TITULOS&dato%5B0%5D=fiestas+laborales",
+    R.string.source_2 to "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430",
+)
 
 @Composable
 private fun SectionTitle(text: String) {

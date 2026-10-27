@@ -18,3 +18,7 @@ Premium removes all ads and keeps the holiday planner always unlocked. Choose a 
 
 DISCLAIMER
 Holidays are calculated using each region's rules. Some regions move or change holidays every year, so always check the official calendar published in the Spanish Official Gazette (BOE), your region's gazette and your town hall. This is an independent app and is not affiliated with any public administration.
+
+OFFICIAL SOURCES
+• Public holidays published in the BOE (Official State Gazette): https://www.boe.es/buscar/boe.php?campo%5B0%5D=TITULOS&dato%5B0%5D=fiestas+laborales
+• Workers' Statute, art. 37 (BOE): https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430

@@ -45,6 +45,10 @@
     <string name="privacy_options">Opcions de privadesa dels anuncis</string>
     <string name="about_title">Quant a</string>
     <string name="about_text">Festius estatals i autonòmics d\'Espanya, ponts i dies laborables. Els festius locals els marques tu. Comprova sempre el calendari oficial.</string>
+    <string name="source_title">Fonts oficials</string>
+    <string name="source_1">Festes laborals publicades al BOE</string>
+    <string name="source_2">Estatut dels Treballadors, art. 37 (BOE)</string>
+    <string name="about_disclaimer">Calendario Laboral és una app independent i no està vinculada a cap administració pública.</string>
     <string name="version">Versió %1$s</string>
     <string name="region_andalucia">Andalusia</string>
     <string name="region_aragon">Aragó</string>

@@ -45,6 +45,10 @@
     <string name="privacy_options">Opcións de privacidade dos anuncios</string>
     <string name="about_title">Acerca de</string>
     <string name="about_text">Festivos estatais e autonómicos de España, pontes e días laborables. Os festivos locais márcalos ti. Comproba sempre o calendario oficial.</string>
+    <string name="source_title">Fontes oficiais</string>
+    <string name="source_1">Festas laborais publicadas no BOE</string>
+    <string name="source_2">Estatuto dos Traballadores, art. 37 (BOE)</string>
+    <string name="about_disclaimer">Calendario Laboral é unha app independente e non está vinculada a ningunha administración pública.</string>
     <string name="version">Versión %1$s</string>
     <string name="region_andalucia">Andalucía</string>
     <string name="region_aragon">Aragón</string>

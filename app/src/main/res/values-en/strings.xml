@@ -45,6 +45,10 @@
     <string name="privacy_options">Ad privacy options</string>
     <string name="about_title">About</string>
     <string name="about_text">National and regional public holidays in Spain, long weekends and working days. You mark the local holidays. Always check the official calendar.</string>
+    <string name="source_title">Official sources</string>
+    <string name="source_1">Public holidays published in the BOE (Official State Gazette)</string>
+    <string name="source_2">Workers\' Statute, art. 37 (BOE)</string>
+    <string name="about_disclaimer">Calendario Laboral is an independent app and is not affiliated with any government body.</string>
     <string name="version">Version %1$s</string>
     <string name="region_andalucia">Andalusia</string>
     <string name="region_aragon">Aragon</string>
