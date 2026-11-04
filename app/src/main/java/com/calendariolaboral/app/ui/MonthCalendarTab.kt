@@ -59,7 +59,6 @@ fun MonthCalendarTab(
     region: Region,
     today: LocalDate,
     onToggleLocal: (LocalDate) -> Unit,
-    onMonthChanged: () -> Unit,
     modifier: Modifier,
 ) {
     var monthText by rememberSaveable { mutableStateOf(YearMonth.from(today).toString()) }
@@ -78,7 +77,6 @@ fun MonthCalendarTab(
             IconButton(
                 onClick = {
                     monthText = month.minusMonths(1).toString()
-                    onMonthChanged()
                 },
                 enabled = month > firstAllowed,
             ) { Icon(Icons.AutoMirrored.Filled.KeyboardArrowLeft, contentDescription = stringResource(R.string.previous_month)) }
@@ -91,7 +89,6 @@ fun MonthCalendarTab(
             IconButton(
                 onClick = {
                     monthText = month.plusMonths(1).toString()
-                    onMonthChanged()
                 },
                 enabled = month < lastAllowed,
             ) { Icon(Icons.AutoMirrored.Filled.KeyboardArrowRight, contentDescription = stringResource(R.string.next_month)) }
