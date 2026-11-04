@@ -146,8 +146,6 @@ fun CalendarioRoot(
                     region = region,
                     today = today,
                     onToggleLocal = { date -> scope.launch { settingsRepository.toggleLocalHoliday(date) } },
-                    // Cambiar de mes es una pausa natural (con límite de frecuencia).
-                    onMonthChanged = { activity?.let { monetization.maybeShowInterstitial(it) } },
                     modifier = modifier,
                 )
                 CalendarTab.BRIDGES -> BridgesTab(calendar, region, today, modifier)
